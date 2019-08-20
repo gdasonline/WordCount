@@ -2,12 +2,17 @@
 using System.Net;
 using ProjectClassLibrary;
 
+/**********
+ The  project will count the number of instances of each word in a 
+ text file for given File ( Web Link)
+
+  The solution  has test project to test word count method
+ *********/
 public class WordCounter
 {
 	static void Main()
 	{
-		//Call Method to Count;
-		//ProcessWordCount();
+		
 		using (WebClient client = new WebClient())
 		{
 			//Given Top Selection Criteria
